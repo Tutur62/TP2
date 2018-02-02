@@ -1,36 +1,57 @@
-#bleu{
+#bleu {
   background-color: blue;
 }
-#rouge{
+
+#rouge {
   background-color: red;
 }
-img{
+
+img {
   max-width: 100%;
 }
-form{
+
+form {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   width: 20%;
 }
-body{
+
+body {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
 }
-*{
+
+* {
   font-size: 16px;
 }
-h1{
+
+h1 {
   font-size: 2.5rem;
 }
-#logo{
+
+#logo {
   background-image: url(logo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 130px;
   background-size: 300px;
 }
+
+table, td {
+  border: 2px black solid;
+  border-collapse: collapse;
+}
+
+
 @media screen and(-webkit-max-device-pixel-ratio:2) {
-  #logo{
+  #logo {
     background-size: 300px;
+  }
+}
+
+@media screen and(min-width:481px) and (min-width:768px) {
+  tr {
+    display: flex;
+    flex-direction: column;
   }
 }
