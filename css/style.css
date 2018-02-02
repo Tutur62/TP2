@@ -16,9 +16,3 @@ body{
   display: flex;
 	flex-direction: column;
 }
-@media (resolution: 101px){
-  form{
-    width: 100%;
-  }
-
-}
